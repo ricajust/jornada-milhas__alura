@@ -1,0 +1,21 @@
+<mat-toolbar>
+  <section class="container--mat-toolbar">
+    <img src="/logo/logo-branco.png" alt="Logo" class="logo" />
+    <span class="example-spacer"></span>
+    <section class="links">
+      <a href="">Vender milhas</a>
+      <a href="">Sobre</a>
+      <section class="btns">
+        @if (islogged) {
+          <button matMiniFab class="btn--profile">
+            <mat-icon>person</mat-icon>
+          </button>
+          <button matButton="outlined" class="btn--outlined">Sair</button>
+        } @else {
+          <button matButton="filled" class="btn--filled">Cadastre-se</button>        
+          <button matButton="outlined" class="btn--outlined">Login</button>
+        }
+      </section>
+    </section>
+  </section>
+</mat-toolbar>

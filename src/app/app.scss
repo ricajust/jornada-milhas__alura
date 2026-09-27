@@ -1,0 +1,18 @@
+.container--main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--cor-branco);
+
+    app-header {
+        flex: 0 0 auto;
+    }
+    .container--content {
+        flex: 1;
+        display: flex;
+    }
+
+    app-footer {
+        flex: 0 0 auto;
+    }
+}

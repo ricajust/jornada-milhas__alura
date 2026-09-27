@@ -1,0 +1,17 @@
+@use '@angular/material' as mat;
+
+@use './styles/tokens';
+@use './styles/typography';
+@use './styles/material-theme';
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  min-height: 100%;
+  font-family: var(--font-family);
+}

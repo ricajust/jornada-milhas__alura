@@ -1,0 +1,133 @@
+.playground {
+  padding: 32px;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 48px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 24px;
+  color: var(--color-text-primary);
+}
+
+
+/* =========================
+   Typography
+   ========================= */
+
+.typography-example {
+  margin-bottom: 16px;
+}
+
+.display-large {
+  font-family: var(--font-family);
+  font-size: var(--font-display-large-size);
+  line-height: var(--font-display-large-line-height);
+}
+
+.headline-large {
+  font-family: var(--font-family);
+  font-size: var(--font-headline-large-size);
+  line-height: var(--font-headline-large-line-height);
+}
+
+.body-large {
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+
+/* =========================
+   Colors
+   ========================= */
+
+.colors {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.color-card {
+  width: 180px;
+  height: 100px;
+
+  padding: 16px;
+
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+}
+
+.color-card span {
+  font-weight: 500;
+}
+
+.color-card small {
+  opacity: 0.8;
+}
+
+.primary {
+  background-color: var(--color-primary);
+  color: white;
+}
+
+.secondary {
+  background-color: var(--color-secondary);
+  color: white;
+}
+
+.error {
+  background-color: var(--color-error);
+  color: white;
+}
+
+.accent {
+  background-color: var(--color-accent);
+  color: var(--color-text-primary);
+}
+
+
+/* =========================
+   Components
+   ========================= */
+
+.component-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+
+/* =========================
+   Forms
+   ========================= */
+
+.form-row {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+mat-form-field {
+  min-width: 280px;
+}
+
+mat-card {
+  max-width: 350px;
+}
