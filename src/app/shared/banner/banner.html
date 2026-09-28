@@ -1,1 +1,6 @@
-<p>banner works!</p>
+<div class="container--banner" [ngClass]="{'peru': banner === 'peru', 'rocha': banner === 'rocha'}">
+    <div class="container--banner__content">
+        <h1 class="text--banner">Compartilhe milhas,<br/>compartilhe o mundo.</h1>
+        <img src="/imagens/banner-img-mochila.png" alt="Banner Image" class="image--banner">
+    </div>
+</div>

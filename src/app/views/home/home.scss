@@ -1,10 +1,23 @@
 :host {
   display: flex;
+  flex-direction: column;
   flex: 1;
+  min-width: 0;
 }
 
-.conteiner--home{
-    border:1px solid #f00;
-    display:flex;
-    flex: 1;
+.container--home {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit,
+      minmax(min(280px, 100%), 1fr));
+
+  width: 100%;
+  max-width: 992px;
+
+  margin: 0 auto;
+  padding: 14px;
+
+  gap: 14px;
+
+  box-sizing: border-box;
 }
